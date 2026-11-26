@@ -4,7 +4,7 @@ This repo contains a guide to install `i3wm` and `emptty` (display manager) and 
 
 # Install
 To install the window manager you can follow the [guide](GUIDE.md) or use the install script by cloning the repo:
-```text
+```bash
 git clone https://github.com/alecassaii/I3.git
 cd I3
 chmod +x install.sh
@@ -12,10 +12,37 @@ chmod +x install.sh
 ```
 
 or using this one-line command:
-```text
+```bash
 curl -fsSL https://raw.githubusercontent.com/alecassaii/I3/refs/heads/main/install.sh | bash
+```
+
+## Script Options
+You can customize the installation by passing any of the following flags to `install.sh`:
+
+| Flag | Description |
+| :--- | :--- |
+| `-a`, `--autologin` | Enable autologin for the target user |
+| `-u`, `--user NAME` | User for autologin (default: current user) |
+| `-l`, `--lang LOCALE` | Locale for `emptty` (default: `it_IT.UTF-8`) |
+| `-t`, `--tty N` | TTY number for `emptty` (default: `7`) |
+| `-T`, `--terminal PKG` | Terminal emulator package (default: `kitty`) |
+| `-m`, `--minimal` | Use `xorg-minimal` instead of the `xorg` meta-package |
+| `-n`, `--no-start` | Enable `emptty` service without starting it immediately |
+| `-y`, `--yes` | Skip confirmation prompts |
+| `-d`, `--dry-run` | Show what would be done without making any changes |
+| `-h`, `--help` | Show help message and exit |
+
+### Examples
+Run locally with custom options:
+```bash
+./install.sh --autologin --lang en_US.UTF-8 --terminal alacritty
+```
+
+Pass flags using the one-line command (`-s --` is required):
+```bash
+curl -fsSL https://raw.githubusercontent.com/alecassaii/I3/refs/heads/main/install.sh | bash -s -- --autologin --yes
 ```
 
 
 # Post-installation
-After the installatin you can login with you user and password and enjoy you barebone `i3`.
+After the installation you can login with your user and password and enjoy your barebone `i3`.
