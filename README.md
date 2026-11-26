@@ -11,7 +11,7 @@ chmod +x install.sh
 ./install.sh
 ```
 
-or using this one-line command:
+or using this one-line command (**NOT WORKING RIGHT NOW**):
 ```bash
 curl -fsSL https://raw.githubusercontent.com/alecassaii/I3/refs/heads/main/install.sh | bash
 ```
