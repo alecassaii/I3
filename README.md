@@ -1,6 +1,6 @@
 # I3 + emptty
 This repo contains a guide to install `i3` with `emptty` (display manager) alongside a port of [shell-ninja](https://github.com/shell-ninja/i3-dotfiles) for void linux.
-THE SCRIPT DOESN'T INSTALL THE SHELL AUTOMATICALLY. SEE THE "Post-installation" BELOW FOR IT.
+**The script does NOT install the shell automatically. See the "Post-installation" secion below for more.**
 
 
 # Install
@@ -46,9 +46,8 @@ curl -fsSL https://raw.githubusercontent.com/alecassaii/I3/refs/heads/main/insta
 
 
 # Post-installation
-After the installation you can login with your user and password and enjoy your barebone `i3`.
-___
-You can install the shell, a fork of the [shell-ninja](https://github.com/shell-ninja/i3-dotfiles) for void linux, by running the script inside the `shell/` directory or by running this command from the root of the directory:
+After the installation you can login with your user and password and enjoy your barebone `i3`.  
+If you want the shell, run the script inside the `shell/` directory or run this command from the root of the directory:
 ```bash
 ./shell/shell.sh
 ```
