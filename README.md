@@ -47,7 +47,7 @@ curl -fsSL https://raw.githubusercontent.com/alecassaii/I3/refs/heads/main/insta
 
 # Post-installation
 After the installation you can login with your user and password and enjoy your barebone `i3`.  
-If you want the shell, run the script inside the `shell/` directory or run this command from the root of the directory:
+If you want the shell, run the script inside the `shell/` directory or run this command from the root of the project:
 ```bash
 ./shell/shell.sh
 ```
