@@ -1,6 +1,6 @@
 # I3 + emptty
 This repo contains a guide to install `i3` with `emptty` (display manager) alongside a port of [shell-ninja](https://github.com/shell-ninja/i3-dotfiles) for void linux.
-**The script does NOT install the shell automatically. See the "Post-installation" secion below for more.**
+**The script does NOT install the shell automatically. See the "Post-installation" section below for more.**
 
 
 # Install
