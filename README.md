@@ -46,3 +46,8 @@ curl -fsSL https://raw.githubusercontent.com/alecassaii/I3/refs/heads/main/insta
 
 # Post-installation
 After the installation you can login with your user and password and enjoy your barebone `i3`.
+___
+You can install the shell, a fork of the [shell-ninja](https://github.com/shell-ninja/i3-dotfiles) for void linux, by running the script inside the `shell/` directory or by running this command from the root of the directory:
+```bash
+./shell/shell.sh
+```
